@@ -16,3 +16,10 @@ public class HelloSpringBoot {
         System.out.println("Spring boot PreDestroy method to cleanup the DB,File,Socket");
     }
 }
+/*
+3. Using Annotation:
+
+To provide the facility to the created bean to invoke custom init() method on the startup of a spring
+container and to invoke the custom destroy() method on closing the container, we need to annotate
+init() method by @PostConstruct annotation and destroy() method by @PreDestroy annotation.
+ */
